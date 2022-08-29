@@ -1,3 +1,5 @@
+import ds from "./Content.module.css";
+
 export default function Content() {
-  return <h1>...</h1>;
+  return <div className={ds.content}>...</div>;
 }

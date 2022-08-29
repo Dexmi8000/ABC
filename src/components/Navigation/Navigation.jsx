@@ -1,3 +1,5 @@
+import ds from "./Navigation.module.css";
+
 export default function Navigation() {
-  return <h1>...</h1>;
+  return <div className={ds.navigation}>...</div>;
 }

@@ -1,3 +1,5 @@
+import ds from "./Header.module.css";
+
 export default function Header() {
-  return <h1>...</h1>;
+  return <div className={ds.header}>...</div>;
 }
