@@ -4,9 +4,11 @@ import Dialogs from "./Dialogs/Dialogs";
 import Profile from "./Profile/Profile";
 export default function Content() {
   return (
-    <Routes>
-      <Route path="/Dialogs" element={<Dialogs />} />
-      <Route path="/Profile" element={<Profile />} />
-    </Routes>
+    <div className={ds.content}>
+      <Routes>
+        <Route path="/Dialogs" element={<Dialogs />} />
+        <Route path="/Profile" element={<Profile />} />
+      </Routes>
+    </div>
   );
 }
